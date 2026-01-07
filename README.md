@@ -25,45 +25,65 @@ SalesInThousands: sales amount for a specific LocationID, Promotion, and week
 
 
 
-About the Project
+**About the Project**
+
 This project evaluates the effectiveness of three marketing promotions using a statistically robust A/B testing framework.
 Due to unequal variances and non-normal sales distributions, Welch’s ANOVA and Games–Howell post-hoc testing were applied.
-Goal:
-Identify whether different promotions lead to statistically and practically significant differences in sales.
-Business Question 
+
+**Goal:**
+
+Identify whether different promotions lead to statistically and practically significant differences in sales
+
+**Business Question **
+
 Do different promotions generate significantly different sales outcomes, and which promotion performs best? 
 
-Experimental Design and Hypotheses
-	Independent Variable: Promotion type (3 levels)  
-Dependent Variable: Sales (in thousands)  
-Observations: Independent sales outcomes 
+**Experimental Design**
 
-Hypotheses
+**Independent Variable:** Promotion type (3 levels)  
+**Dependent Variable:** Sales (in thousands)  
+**Observations:** Independent sales outcomes 
 
-H0: Mean sales are equal in all promotion types
-H1: At least one of the mean sales is different.
+**Hypotheses**
 
-Tests Used and Methodology
+**H0:** Mean sales are equal in all promotion types
+**H1:** At least one of the mean sales is different.
+
+**Tests Used and Methodology**
 
 - Shapiro-Wilk for Normality Assumption -> Large sample sensitivity
+  
 - Levene’s Test for Variance Homogeneity Assumption -> Homogeneity violated
+  
 - Welch’s ANOVA for Statistical Testing (Good for unequal variances)
+  
 - Games-Howell for Post-Hoc Testing (Also good for unequal variances)
 
-Results:
+**Results:**
+
 Promotion 2 performed worse than 1 and 3, it should be redesigned and reconsidered.
+
 Promotion 1 and 3 have close values, they can be used in our business.
 
-Required Libraries
+**Required Libraries**
+
 pandas
+
 scipy
+
 pingouin
 
-Skills Demonstrated:
-- A/B testing and experimental design  
-- Assumption diagnostics  
-- Welch ANOVA & Games–Howell testing  
-- Business-driven statistical reasoning  
+
+**Skills Demonstrated:**
+
+- A/B testing and experimental design
+- 
+- Assumption diagnostics
+- 
+- Welch ANOVA & Games–Howell testing
+- 
+- Business-driven statistical reasoning
+- 
 - Clean and reproducible analysis 
 
 Coding parts can be seen in the “Marketing AB Test.ipynb” file.
