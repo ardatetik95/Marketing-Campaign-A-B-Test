@@ -34,7 +34,7 @@ Due to unequal variances and non-normal sales distributions, Welch’s ANOVA and
 
 Identify whether different promotions lead to statistically and practically significant differences in sales
 
-**Business Question **
+**Business Question**
 
 Do different promotions generate significantly different sales outcomes, and which promotion performs best? 
 
