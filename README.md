@@ -3,11 +3,11 @@ This project evaluates the effectiveness of three marketing promotions using A/B
 
 Dataset from: https://www.kaggle.com/datasets/chebotinaa/fast-food-marketing-campaign-ab-test
 
-About the Dataset
+**About the Dataset**
 
 A fast-food chain plans to add a new item to its menu. However, they are still undecided between three possible marketing campaigns for promoting the new product. In order to determine which promotion has the greatest effect on sales, the new item is introduced at locations in several randomly selected markets. A different promotion is used at each location, and the weekly sales of the new item are recorded for the first four weeks.
 
-Columns:
+**Columns:**
 
 MarketID: unique identifier for market 
 
@@ -41,12 +41,15 @@ Do different promotions generate significantly different sales outcomes, and whi
 **Experimental Design**
 
 **Independent Variable:** Promotion type (3 levels)  
+
 **Dependent Variable:** Sales (in thousands)  
+
 **Observations:** Independent sales outcomes 
 
 **Hypotheses**
 
-**H0:** Mean sales are equal in all promotion types
+**H0:** Mean sales are equal in all promotion types.
+
 **H1:** At least one of the mean sales is different.
 
 **Tests Used and Methodology**
@@ -77,11 +80,11 @@ pingouin
 **Skills Demonstrated:**
 
 - A/B testing and experimental design
-- 
+  
 - Assumption diagnostics
-- 
+  
 - Welch ANOVA & Games–Howell testing
-- 
+  
 - Business-driven statistical reasoning
 - 
 - Clean and reproducible analysis 
