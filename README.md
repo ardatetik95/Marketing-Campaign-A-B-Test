@@ -86,7 +86,7 @@ pingouin
 - Welch ANOVA & Games–Howell testing
   
 - Business-driven statistical reasoning
-- 
+  
 - Clean and reproducible analysis 
 
 Coding parts can be seen in the “Marketing AB Test.ipynb” file.
